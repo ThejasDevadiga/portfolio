@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio website</title>
+    <link rel= "preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/style.css">
+     <link href= "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" 
+    rel= "stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Portfo<span>lio</span></h2>  
+        <a href="#" class="btn">Subscribe</a>
+     </nav>
+     <div class= "content">
+      <h4>Hello, myself</h4>
+     <h1>Thejas <span>Devadiga</span></h1>
+      <h3>I'am a Web Developer.</h3>
+      <div class= "newsletter">
+        <form onsubmit="" method="post">
+          <input type= "email" name="email" id= "mail" placeholder= "Enter Your Email">
+          <input type= "submit" name= "submit" value="Lets Start">
+       </form>
+     </div>
+  </div>
+  <button id="scroll-btn" class="scroll-down" address="true"></button>
+</div>
+
+
+<section class="about">
+  <div class="main">
+      <img class="img2" src="./images/img2.jpg" alt="Not found" width="55%" height="10vh">
+      <div class="about-text">
+          <h2>About</h2>
+          <h5>Developer <span>& Designer</span> </h5>
+<p>Thejas Devadiga here.An optimistic, creative, and innovative developer with a keen eye for detail who wants to understand how things work and how to improve their efficiency and effectiveness. I'm currently pursuing my engineering degree in the feild of 'Artificial Intelligence and Machine Learning' and am proficient in building ML model, web development and Python programming. 
+</p>
+          <button id="lets-talk" class="talk">Let's Talk</button>
+      </div>
+  </div>
+</section>
+
+
+<div class="project">
+  <div class="title">
+    <h2>My projects</h2>
+  </div>
+<div class="box">
+  <div class="card">
+    <i class="fa-solid fa-robot"></i>
+    <h5>Alcuin Bot</h5>
+    <div class="pra">
+      <p style="text-align:center;">
+ Its a IOT based remote controlled || auto navigation bot. It can climb steps and navigate to particular destinations without human intervention. This can be controlled with smart phones.
+      </p>
+    </div>
+        <a href="https://github.com/ThejasDevadiga" class="button" style="text-align:center;">Read more</a>
+  </div> 
+
+
+
+  <div class="card">
+    <i class="fa-brands fa-codepen"></i>
+              <h5>Gideon Assistant</h5>
+    <div class="pra">
+      <p style="text-align:center;">
+        An AI virtual assistant, also called AI assistant or digital assistant, is an application program that understands natural language voice commands and completes tasks for the user.      </p>
+    </div>
+        <a href="https://github.com/ThejasDevadiga" class="button" style="text-align:center;">Read more</a>
+  </div> 
+
+
+  <div class="card">
+    <i class="fa-solid fa-cloud"></i>
+    
+    <h5>EMR Software</h5>
+    <div class="pra">
+      <p >
+        Electronic medical records software (EMR) is a collection of features and tools that allow medical providers to create, store, and update patients' digital health records more easily and more securely than paper charts.
+      </p>
+    </div>
+        <a href="https://github.com/ThejasDevadiga" class="button"  style="text-align:center;" >Read more</a>
+  </div> 
+</div>
+</div>
+<div class="skillLevel">
+  <div>
+    <h2>SKILLS</h2>
+    <div class="skillContainer">
+      <div class="Circlerange">
+        <h3>62%</h3>
+        <h4>Machine Learning</h4>
+      </div>
+      <div class="Circlerange">
+        <h3>72%</h3>
+        <h4>Web developement</h4>
+      </div>
+      <div class="Circlerange">
+        <h3>50%</h3>
+        <h4>Tech talk</h4>
+      </div>
+      <div class="Circlerange">
+        <h3>80%</h3>
+        <h4>Programing</h4>
+      </div>
+      <div class="Circlerange">
+        <h3>65%</h3>
+        <h4>Machine Learning</h4>
+      </div>
+      <div class="Circlerange">
+        <h3>85%</h3>
+        <h4>Designing</h4>
+      </div>
+    </div>
+</div>
+</div>
+<div class="threejsModel">
+  <div>
+    <canvas id="canvas" > </canvas> 
+    <button class="credit" id="credit">Model Source</button>
+  </div>
+  
+   <div class="threeDoc">
+    <h1>Intel Verse</h1>
+    <div class="Control-btns">
+      <button id="red" class="modelController">Red </button>
+      <button id="blue" class="modelController">blue</button>
+      <button id="yellow" class="modelController">yellow </button>
+      <button id="green" class="modelController">green </button>
+      <button id="white" class="modelController">white </button>
+      <button id="talk" class="modelController">talk </button>
+    </div> 
+  </div>
+
+      <script src="./js/index.js"></script>
+    <script type="module" src="./js/botModel.js"></script>
+   </body>
+</html>
