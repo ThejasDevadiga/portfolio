@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "firebase-tools": "^11.14.4",
     "vite": "^3.1.0"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "three": "^0.145.0",
     "threex.domevents": "^1.0.1"
   }
